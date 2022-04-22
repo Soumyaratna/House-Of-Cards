@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    overflow: hidden;
+    background-color: rgb(27, 25, 25);
+}
+.home{
+    background-color: rgb(27, 25, 25);
+    color: white;
+
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 34vw;
+    margin-top: 37vh;
+    position: absolute;
+
+    transition: 2s;
+}
+h3{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    position: absolute;
+    width: 100vw;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    border: none;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(83, 83, 83);
+    transition: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(101, 101, 255);
+}
+.cards{
+    position: absolute;
+    background-color: rgb(27, 25, 25);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 2s;
+
+    transform: translateX(2000px);
+}
+img{
+    margin-left: 10vw;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgb(172, 12, 100);
+}
+.card-text{
+    width: 40vw; height: 100px;
+    margin-left: 10vw;
+    margin-top: -400px;
+    color: white;
+    text-align: right;
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
